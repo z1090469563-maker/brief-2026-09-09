@@ -35,11 +35,19 @@ td { padding:16px; vertical-align:top; }
 .footer-brand { text-align:center; color:#07c160; font-size:16px; font-weight:bold; }
 .footer-slogan { text-align:center; color:#999; font-size:12px; margin-top:4px; }
 .footer-disclaimer { color:#999; font-size:11px; line-height:1.5; }
-.follow-box { background-color:#f0f7ff; padding:16px; border-radius:6px; border:1px solid #c8e1ff; }
-.follow-title { color:#1890ff; font-size:14px; font-weight:bold; }
-.follow-text { color:#555; font-size:13px; line-height:1.6; margin-top:6px; }
-.follow-wechat { color:#07c160; font-size:16px; font-weight:bold; margin-top:8px; }
-.follow-note { color:#999; font-size:11px; margin-top:4px; }
+.follow-box { background:linear-gradient(135deg, #f0f7ff 0%, #e8f4fd 100%); padding:20px; border-radius:8px; border:1px solid #c8e1ff; }
+.follow-title { color:#1890ff; font-size:15px; font-weight:bold; margin-bottom:12px; }
+.follow-row { display:flex; gap:16px; margin-top:10px; }
+.follow-left { flex:1; }
+.follow-right { flex:1; }
+.follow-text { color:#555; font-size:13px; line-height:1.7; margin-top:0; }
+.follow-highlight { background:#fff; border-radius:6px; padding:12px; margin-top:10px; border:1px dashed #b3d8ff; }
+.follow-highlight-title { color:#1890ff; font-size:12px; font-weight:bold; margin-bottom:6px; }
+.follow-highlight-item { color:#666; font-size:12px; line-height:1.8; padding-left:12px; position:relative; }
+.follow-wechat-box { background:#fff; border-radius:6px; padding:14px; text-align:center; margin-top:10px; border:1px solid #d6e9ff; }
+.follow-wechat-label { color:#999; font-size:11px; }
+.follow-wechat { color:#07c160; font-size:18px; font-weight:bold; margin:6px 0 4px; letter-spacing:1px; }
+.follow-note { color:#999; font-size:11px; }
 </style>
 </head>
 <body>
@@ -53,7 +61,7 @@ td { padding:16px; vertical-align:top; }
   </section>
 
   <section class="header-bg">
-    <span class="brand">📺 观播社</span> <span class="brand-sub">| 用10分钟掌握直播行业关键动态</span>
+    <span class="brand">📺 观播社</span> <span class="brand-sub">| 加入可获取各平台最新政策 & 33GB 直播资料</span>
   </section>
 
   <section class="highlight-box">
@@ -175,11 +183,25 @@ td { padding:16px; vertical-align:top; }
   </section>
 
   <section class="follow-box">
-    <div class="follow-title">👉 关注引导</div>
-    <div class="follow-text">关注「观播社」公众号，每天10分钟读懂直播行业。行业监管、平台动态、主播八卦、出海观察，一刊速览，不错过任何关键变化。</div>
-    <div class="follow-text">加入观播社行业交流群，与同行实时交流直播行业动态：</div>
-    <div class="follow-wechat">微信号：guangboshe001</div>
-    <div class="follow-note">添加时备注「观播社」即可拉群，群内不定期分享行业内部资料与数据报告。</div>
+    <div class="follow-title">👉 关注「观播社」，获取行业干货</div>
+    <div class="follow-row">
+      <div class="follow-left">
+        <div class="follow-text">关注「观播社」公众号，每天 10 分钟读懂直播行业全貌。行业监管、平台动态、主播八卦、出海观察、技术创新，一刊速览。</div>
+        <div class="follow-highlight">
+          <div class="follow-highlight-title">📦 入群即可获取</div>
+          <div class="follow-highlight-item">✓ 各平台最新政策原文合集</div>
+          <div class="follow-highlight-item">✓ 33GB 直播行业资料包（研报/数据/模板）</div>
+          <div class="follow-highlight-item">✓ 每日早报 + 周度深度分析</div>
+        </div>
+      </div>
+      <div class="follow-right">
+        <div class="follow-wechat-box">
+          <div class="follow-wechat-label">扫码或搜索微信号添加</div>
+          <div class="follow-wechat">guangboshe001</div>
+          <div class="follow-note">添加时备注「观播社」即可拉群</div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <section class="footer-section">
